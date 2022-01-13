@@ -1,0 +1,63 @@
+.products-card {
+    padding: 100px 0px;
+}
+.procduct-tittle {
+    font-size: 36px;
+    color: #111;
+    padding-bottom: 15px;
+}
+.card-wrapper-para {
+    margin: 0;
+    font-size: 14px;
+    color: gray;
+    padding-bottom: 3px;
+}
+.card-wrapper-tittle {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    margin: 0px;
+}
+.card-wrapper-58 {
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 3px;
+}
+.number-85 {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 15px;
+}
+.number-85-1 {
+    color: #ff6f61!important;
+}
+.cotton-tiitle {
+    font-size: 16px;
+    color: #111 !important;
+    font-weight: 500;
+    margin: 0px;
+}
+.cotton-65 {
+    color: gray;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 768px){
+    .products-card {
+        padding: 40px 28px;
+    }
+    .procduct-tittle {
+        font-size: 30px;
+    }
+    .procduct-tittle {
+        font-size: 30px;
+        padding-bottom: 8px;
+    }
+    .wrapper-card {
+        padding: 95px 12px;
+    }
+    .product-wrapper-tittle {
+        font-size: 30px;
+        padding-bottom: 5px;
+    }
+}

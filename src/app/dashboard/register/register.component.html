@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="col-sm-6">
+    <form [formGroup]="loginForm" (ngSubmit)="collectData()">
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" name="email" formControlName="email" placeholder="email">
+            <span *ngIf="email.invalid && email.touched" class="red-error">Email field is required</span>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" name="password" formControlName="password" placeholder="password">
+            <span *ngIf="password.invalid && password.touched" class="red-error">Password field is required</span>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Mobile Number</label>
+            <input type="number" class="form-control" name="number" formControlName="number" placeholder="Mobile Number">
+            <span *ngIf="number.invalid && number.touched" class="red-error">Mobile Number field is required</span>
+          </div>
+          <div class="form-group">
+              <label for="courde">Select Course</label>
+              <select class="form-control" id="course" name="course">
+                <OPtion value="Angular">Angular</OPtion>
+                <OPtion value="Angular">JavaScript</OPtion>
+                <OPtion value="Angular">Bootstrap</OPtion>
+              </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+</div>

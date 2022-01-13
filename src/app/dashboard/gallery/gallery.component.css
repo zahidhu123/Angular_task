@@ -1,0 +1,17 @@
+* body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.creative {
+    padding: 120px 0px;
+}
+.creative-box {
+    font-size: 42px;
+}
+.creative-img {
+    width: 100%;
+    border-radius: 5px;
+}

@@ -1,0 +1,22 @@
+input.ng-invalid{
+    border-left: 5px solid red;
+}
+input.ng-valid{
+    border-left: 5px solid green;
+}
+.red-error{
+    color: red;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container-shopper {
+        padding: 0px 0px;
+    }
+    .navbar-shopper {
+        font-size: 24px;
+    }
+    .nav-shopper {
+        padding: 18px 16px;     
+    }
+}

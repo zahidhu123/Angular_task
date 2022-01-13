@@ -1,0 +1,47 @@
+<div class="section">
+    <div class="container ">
+        <div class="container-box">
+            <div class="row justify-content-center h-100">
+                <div class="col-lg-6 col-md-12 h-100 image-size p-0">
+                    <img src="assets/image_processing20191104-12920-1aj0vzo (2).jpg" class="login-img" alt="image">
+                </div>
+                <div class="col-lg-6 col-md-12 p-0">
+                    <div class="image-wrapper">
+                        <div>
+                            <h1 class="login pb-2">Login</h1>
+                            <div class="title pb-4">
+                                <p>Welcome back! Please login to your account.</p>
+                            </div>
+                        </div>
+                        
+                        <form [formGroup]="loginForm" (ngSubmit)="loginFormData()">
+                            <label for="exampleFormControlInput1" class="form-label user-label">User Name</label>
+                            <div class="input-form">
+                                <input type="email" class="fname form-control" name="email" placeholder="E-mail Adress*"
+                                    formControlName="email">
+                            </div>
+                            <label for="exampleFormControlInput1" class="form-label user-label">Password</label>
+                            <div class="input-form">
+                                <input type="password" class="fname form-control" name="password"
+                                    placeholder="Password*" formControlName="password">
+                            </div>
+                            <div class="radio-btn  d-flex justify-content-between py-3">
+                                <div class="d-flex align-items-center radio-btn">
+                                    <input type="radio" name="zahid">
+                                    <p class="m-0 remember">Remember Me</p>
+                                </div>
+                                <p class="pe-5 m-0 forget">Forget Password?</p>
+                            </div>
+                            <div class="input-form">
+                                <button class="btn btn-primary" type="submit" routerLink="/dashboard">Login</button>
+                            </div>
+                            <div class="sinup-page">
+                                <p class="new-user m-0">New User? <span class="sinup">Signup</span></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
